@@ -1,0 +1,48 @@
+@use '../abstracts' as *;
+
+body {
+  font-family: $font-primary;
+  font-weight: $normal;
+}
+
+.navbar__list > li:first-child a {
+  font-weight: $semibold;
+  color: $dark-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-heading;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2.5rem;
+}
+
+.footer__company-name {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+button {
+  font-family: $font-primary;
+  font-size: 1rem;
+  font-weight: $semibold;
+}

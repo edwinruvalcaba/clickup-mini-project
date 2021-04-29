@@ -1,0 +1,19 @@
+@use '../abstracts/' as *;
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.intro__background {
+  display: flex;
+  align-items: center;
+  max-width: 69.8125rem;
+  max-height: 35rem;
+  background-color: $lightPink;
+  border-radius: 50px;
+}
+
+.intro__text-container {
+  max-width: 29.6875rem;
+}

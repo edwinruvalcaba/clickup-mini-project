@@ -1,0 +1,17 @@
+@use 'abstracts' as *;
+@use 'base' as *;
+@use 'layout' as *;
+@use 'components/buttons';
+
+body {
+  color: $gray;
+  background: $background;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  color: $dark-blue;
+}
