@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials__container {
+  width: 69.875rem;
+  background-color: $purple;
+  border-radius: 50px;
+}

@@ -7,13 +7,22 @@
 
 .intro__background {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  max-width: 69.8125rem;
-  max-height: 35rem;
+  width: 69.8125vw;
+  max-width: 1117px;
+  padding: 1.75rem 0;
   background-color: $lightPink;
   border-radius: 50px;
 }
 
+.intro__img {
+  margin-left: 0.7rem;
+  margin-top: 0.2rem;
+}
+
 .intro__text-container {
   max-width: 29.6875rem;
+  margin-top: 2.2rem;
+  margin-right: 5.5rem;
 }

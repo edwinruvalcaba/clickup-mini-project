@@ -1,0 +1,31 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 71.08rem;
+  margin: 0 15.17rem 0 13.75rem;
+}
+
+.features__heading {
+  width: 36.5rem;
+  text-align: center;
+  align-self: center;
+}
+
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.features__grid-search {
+  margin-top: 0.2rem;
+}
+
+.features__grid-access {
+  margin-top: 2rem;
+}
+
+.features__grid-print {
+  margin-top: 0.5rem;
+}
