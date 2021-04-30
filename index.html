@@ -113,25 +113,40 @@
       <!-- Testimonials -->
       <section class="testimonials">
         <div class="testimonials__container">
-          <h4>Testimonials</h4>
-          <div class="slide-1">
-            <img class="profile-pic" />
-            <span class="profile-name">John Fang</span>
-            <span class="profile-title">wordfaang.com</span>
-            <p>
-              Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra
-              enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam
-              laoreet nulla.
-            </p>
-          </div>
-          <div class="slide-2">
-            <img class="profile-pic" />
-            <span class="profile-name">Jeny Doe</span>
-            <span class="profile-title">UX Engineer</span>
-            <p>
-              Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra
-              enim erat tortor
-            </p>
+          <h4 class="testimonials__heading">Testimonials</h4>
+          <div class="testimonials__card-container">
+            <div class="testimonials__card">
+              <img
+                src="images/profile_pic1.svg"
+                class="testimonials__card-pic"
+              />
+              <div class="testimonials__text">
+                <span class="testimonials__card-name">John Fang</span>
+                <span class="testimonials__card-title">wordfaang.com</span>
+                <p>
+                  Suspendisse ultrices at diam lectus nullam.<br />
+                  Nisl, sagittis viverra enim erat tortor ultricies<br />
+                  massa turpis. Arcu pulvinar aenean nam laoreet<br />
+                  nulla.
+                </p>
+              </div>
+            </div>
+            <div class="testimonials__card card-next">
+              <img
+                src="images/profile_pic2.svg"
+                class="testimonials__card-pic"
+              />
+              <div class="testimonials__text">
+                <span class="testimonials__card-name">Jeny Doe</span>
+                <span class="testimonials__card-title">UX Engineer</span>
+                <p>
+                  Suspendisse ultrices<br />
+                  at diam lectus nullam.<br />
+                  Nisl, sagittis viverra<br />
+                  enim erat tortor
+                </p>
+              </div>
+            </div>
           </div>
           <div class="testimonials__nav">
             <ul>
@@ -140,60 +155,68 @@
               <li>.</li>
               <li>.</li>
             </ul>
-            <div class="testimonials__nav-arrow--left"></div>
-            <div class="testimonials__nav-arrow-right"></div>
+            <div class="testimonials__nav-arrows">
+                <img src="images/nav_arrow-left.svg" class="testimonials__nav-arrow--left"></img>
+                <img src="images/nav_arrow-right.svg" class="testimonials__nav-arrow-right"></img>
+            </div>
           </div>
         </div>
       </section>
     </main>
+    <hr/>
 
-    <!-- Free Trial -->
-    <div class="free-trial">
-      <div class="free-trial__text">
-        <h5>Try for free!</h5>
-        <p>Get limited 1 week free try our features!</p>
-      </div>
-      <div class="free-trial__btns">
-        <button class="free-trial__learn-btn learn-btn">Learn more</button>
-        <button class="free-trial__demo-btn demo-btn">
-          <span>Request Demo</span
-          ><img src="/images/arrow.svg" class="demo-btn__arrow" />
-        </button>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer__company-details">
-        <img src="/images/Logo.svg" alt="logo" class="footer__logo" />
-        <h6 class="footer__company-name">DataWarehouse</h6>
-        <span>Warehouse Society, 234 Bahagia Ave Street PRBW 29281 </span>
-        <span>info@warehouse.project 1-232-3434 (Main)</span>
-      </div>
-      <div class="footer__about-list">
-        <h6>About</h6>
-        <ul>
-          <li>Profile</li>
-          <li>Features</li>
-          <li>Careers</li>
-          <li>DW News</li>
-        </ul>
-      </div>
-      <div class="footer__help-list">
-        <h6>Help</h6>
-        <ul>
-          <li>Support</li>
-          <li>Sign up</li>
-          <li>Guide</li>
-          <li>Reports</li>
-          <li>Q&A</li>
-        </ul>
-      </div>
-      <div class="footer__social-media">
-        <a href="#" class="footer__social-media--icon fa fa-facebook"></a>
-        <a href="#" class="footer__social-media--icon fa fa-twitter"></a>
-        <a href="#" class="footer__social-media--icon fa fa-instagram"></a>
-      </div>
-    </footer>
+    <section class="bottom-section">        
+        <!-- Free Trial -->
+        <div class="free-trial">
+          <div class="free-trial__text">
+            <h5>Try for free!</h5>
+            <p>Get limited 1 week free try our features!</p>
+          </div>
+          <div class="free-trial__btns">
+            <button class="free-trial__learn-btn learn-btn">Learn more</button>
+            <button class="free-trial__demo-btn demo-btn">
+              <span>Request Demo</span>
+              <img src="/images/arrow.svg" class="demo-btn__arrow" />
+            </button>
+          </div>
+        </div>
+    
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer__company-details">
+              <div class="footer__company-logo-name">
+                <img src="/images/Logo.svg" alt="logo" class="footer__logo logo" />
+                <h6>DataWarehouse</h6>
+              </div>
+            <span class="footer__address">Warehouse Society, 234<br/> Bahagia Ave Street PRBW 29281 </span>
+            <span class="footer__contact">info@warehouse.project<br/> 1-232-3434 (Main)</span>
+          </div>
+          <div class="footer__about-list">
+            <h6>About</h6>
+            <ul>
+              <li>Profile</li>
+              <li>Features</li>
+              <li>Careers</li>
+              <li>DW News</li>
+            </ul>
+          </div>
+          <div class="footer__help-list">
+            <h6>Help</h6>
+            <ul>
+              <li>Support</li>
+              <li>Sign up</li>
+              <li>Guide</li>
+              <li>Reports</li>
+              <li>Q&A</li>
+            </ul>
+          </div>
+          <div class="footer__social-media">
+            <h6>Social Media</h6>
+            <a href="#" class="footer__social-media--icon fa fa-facebook"></a>
+            <a href="#" class="footer__social-media--icon fa fa-twitter"></a>
+            <a href="#" class="footer__social-media--icon fa fa-instagram"></a>
+          </div>
+        </footer>
+    </section>
   </body>
 </html>

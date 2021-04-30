@@ -1,7 +1,7 @@
 @use 'abstracts' as *;
 @use 'base' as *;
 @use 'layout' as *;
-@use 'components/buttons';
+@use 'components' as *;
 
 body {
   color: $gray;
@@ -16,6 +16,17 @@ h6 {
   color: $dark-blue;
 }
 
+ul {
+  list-style: none;
+}
+
 section {
   padding: 3rem 0;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: $purple;
+  opacity: 20%;
 }

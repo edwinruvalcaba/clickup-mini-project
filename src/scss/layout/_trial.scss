@@ -1,5 +1,24 @@
 @use '../abstracts/' as *;
 
+.free-trial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 69.8125rem;
+  margin: auto;
+  margin-top: 3.125rem;
+}
+
+.free-trial__text p {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
+.free-trial__btns {
+  display: flex;
+}
+
 .free-trial__learn-btn {
   background-color: $pink !important;
+  margin-right: 1.875rem;
 }

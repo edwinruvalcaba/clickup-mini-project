@@ -1,1 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 69.8125rem;
+  margin: 5.5625rem auto;
+}
 
+.footer__company-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__company-logo-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.0625rem;
+}
+
+.footer__company-logo-name h6 {
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.footer__logo {
+  width: 3.0625rem;
+}
+
+.footer__address {
+  margin-bottom: 1.25rem;
+}
+
+.footer__about-list h6 {
+  margin-bottom: 2rem;
+}
+
+.footer__about-list ul li {
+  margin-bottom: 1.5rem;
+}
+
+.footer__help-list h6 {
+  margin-bottom: 2rem;
+}
+
+.footer__help-list ul li {
+  margin-bottom: 1.5rem;
+}
