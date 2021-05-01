@@ -3,8 +3,8 @@
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
-  width: 71.08rem;
-  margin: 0 15.17rem 0 13.75rem;
+  width: 71vw;
+  margin: 7rem auto;
 }
 
 .features__heading {
@@ -18,6 +18,10 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.features__img {
+  width: 34vw;
+}
+
 .features__grid-search {
   margin-top: 0.2rem;
 }
@@ -28,4 +32,24 @@
 
 .features__grid-print {
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 884px) {
+  .features__heading p {
+    max-width: 70vw;
+  }
+
+  .features__grid {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin-right: 3rem;
+  }
+
+  .features__img {
+    width: 70vw;
+  }
+
+  .features__grid-security {
+    margin-top: 1.75rem;
+  }
 }

@@ -20,11 +20,12 @@
         </ul>
       </nav>
       <button class="navbar__btn demo-btn">
-        <span class="demo-btn__container">
+        <div class="demo-btn__container">
           <span>Request Demo</span>
           <img src="/images/arrow.svg" class="demo-btn__arrow" />
-        </span>
+        </div>
       </button>
+        <img src="images/menu.svg" class="header__menu-icon"/>
     </header>
 
     <main class="main">
@@ -70,42 +71,16 @@
         </div>
         <div class="features__grid">
           <div class="features__grid-search">
-            <img src="images/feature1.svg" alt="search" />
-            <!-- <h6>Search Data</h6>
-            <p>
-              Don’t worry if your data is very large, the Data Warehoue provides
-              a search engine, which is useful for making it easier to find data
-              effectively saving time.
-            </p>
-            <button class="features__btn">Learn more</button> -->
+            <img class="features__img" src="images/feature1.svg" alt="search" />
           </div>
           <div class="features__grid-access">
-            <img src="images/feature2.svg" alt="access" />
-            <!-- <h6>24 Hours Access</h6>
-            <p>
-              Access is given 24 hours a full morning to night and meet again in
-              the morning, giving you comfort when you need data when urgent.
-            </p>
-            <button class="features__btn">Learn more</button> -->
+            <img class="features__img" src="images/feature2.svg" alt="access" />
           </div>
           <div class="features__grid-print">
-            <img src="images/feature3.svg" alt="print" />
-            <!-- <h6>Print Out</h6>
-            <p>
-              Print out service gives you convenience if someday you need print
-              data, just edit it all and just print it.
-            </p>
-            <button class="features__btn">Learn more</button> -->
+            <img class="features__img" src="images/feature3.svg" alt="print" />
           </div>
           <div class="features__grid-security">
-            <img src="images/feature4.svg" alt="security" />
-            <!-- <h6>Security Code</h6>
-            <p>
-              Data Security is one of our best facilities. Allows for your files
-              to be safer. The file can be secured with a code or password that
-              you created, so only you can open the file.
-            </p>
-            <button class="features-btn">Learn more</button> -->
+            <img class="features__img" src="images/feature4.svg" alt="security" />
           </div>
         </div>
       </section>
@@ -115,7 +90,7 @@
         <div class="testimonials__container">
           <h4 class="testimonials__heading">Testimonials</h4>
           <div class="testimonials__card-container">
-            <div class="testimonials__card">
+            <div id="card1" class="testimonials__card">
               <img
                 src="images/profile_pic1.svg"
                 class="testimonials__card-pic"
@@ -131,7 +106,7 @@
                 </p>
               </div>
             </div>
-            <div class="testimonials__card card-next">
+            <div id="card2" class="testimonials__card card-next">
               <img
                 src="images/profile_pic2.svg"
                 class="testimonials__card-pic"
@@ -150,14 +125,14 @@
           </div>
           <div class="testimonials__nav">
             <ul>
-              <li>.</li>
-              <li>.</li>
-              <li>.</li>
-              <li>.</li>
+              <li class="testimonials__nav-dot--active"></li>
+              <li class="testimonials__nav-dot"></li>
+              <li class="testimonials__nav-dot"></li>
+              <li class="testimonials__nav-dot"></li>
             </ul>
             <div class="testimonials__nav-arrows">
                 <img src="images/nav_arrow-left.svg" class="testimonials__nav-arrow--left"></img>
-                <img src="images/nav_arrow-right.svg" class="testimonials__nav-arrow-right"></img>
+                <img src="images/nav_arrow-right.svg" class="testimonials__nav-arrow--right"></img>
             </div>
           </div>
         </div>
@@ -191,30 +166,34 @@
             <span class="footer__address">Warehouse Society, 234<br/> Bahagia Ave Street PRBW 29281 </span>
             <span class="footer__contact">info@warehouse.project<br/> 1-232-3434 (Main)</span>
           </div>
-          <div class="footer__about-list">
-            <h6>About</h6>
-            <ul>
-              <li>Profile</li>
-              <li>Features</li>
-              <li>Careers</li>
-              <li>DW News</li>
-            </ul>
-          </div>
-          <div class="footer__help-list">
-            <h6>Help</h6>
-            <ul>
-              <li>Support</li>
-              <li>Sign up</li>
-              <li>Guide</li>
-              <li>Reports</li>
-              <li>Q&A</li>
-            </ul>
-          </div>
-          <div class="footer__social-media">
-            <h6>Social Media</h6>
-            <a href="#" class="footer__social-media--icon fa fa-facebook"></a>
-            <a href="#" class="footer__social-media--icon fa fa-twitter"></a>
-            <a href="#" class="footer__social-media--icon fa fa-instagram"></a>
+          <div class="footer__lists">
+            <div class="footer__about-list">
+              <h6>About</h6>
+              <ul>
+                <li>Profile</li>
+                <li>Features</li>
+                <li>Careers</li>
+                <li>DW News</li>
+              </ul>
+            </div>
+            <div class="footer__help-list">
+              <h6>Help</h6>
+              <ul>
+                <li>Support</li>
+                <li>Sign up</li>
+                <li>Guide</li>
+                <li>Reports</li>
+                <li>Q&A</li>
+              </ul>
+            </div>
+            <div class="footer__social-media">
+              <h6>Social Media</h6>
+              <div class="footer__social-media--icons">
+                <div class="footer__social-media--icon fa fa-facebook"></div>
+                <div class="footer__social-media--icon fa fa-twitter"></div>
+                <div class="footer__social-media--icon fa fa-instagram"></div>
+              </div>
+            </div>
           </div>
         </footer>
     </section>

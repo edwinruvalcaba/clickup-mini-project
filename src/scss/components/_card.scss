@@ -2,11 +2,13 @@
 
 .testimonials__card {
   display: flex;
-  min-width: 40.3125rem;
+  min-width: 40vw;
+  max-width: 645px;
   max-height: 20.625rem;
   padding: 1.875rem 0 1.875rem 0;
   background-color: $white;
   border-radius: 1.25rem;
+  box-shadow: 0 20px 0 rgba(131, 88, 211, 1);
 }
 
 .testimonials__card-pic {

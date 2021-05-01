@@ -19,10 +19,28 @@
 .intro__img {
   margin-left: 0.7rem;
   margin-top: 0.2rem;
+  width: 28vw;
 }
 
 .intro__text-container {
   max-width: 29.6875rem;
   margin-top: 2.2rem;
   margin-right: 5.5rem;
+}
+
+@media screen and (max-width: 884px) {
+  .intro__background {
+    flex-direction: column;
+    width: 70vw;
+    text-align: center;
+  }
+
+  .intro__img {
+    width: 45vw;
+    margin: 0;
+  }
+
+  .intro__text-container {
+    margin: 0 2rem;
+  }
 }

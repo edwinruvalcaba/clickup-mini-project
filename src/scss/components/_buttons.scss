@@ -20,6 +20,12 @@ button:hover {
   box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
 }
 
+@media screen and (max-width: 884px) {
+  .navbar__btn {
+    display: none;
+  }
+}
+
 .demo-btn__container {
   display: flex;
   align-items: center;
