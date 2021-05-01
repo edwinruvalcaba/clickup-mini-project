@@ -39,3 +39,17 @@
     max-width: 70vw;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .free-trial__text {
+    margin: 0;
+  }
+  .free-trial__btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .free-trial__learn-btn {
+    margin: 2rem 0;
+  }
+}

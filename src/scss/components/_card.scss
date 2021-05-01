@@ -44,8 +44,21 @@
   margin-top: 1.25rem;
 }
 
+@media screen and (max-width: 1374px) {
+  .testimonials__text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 884px) {
   .testimonials__card-pic {
     margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testimonial__card {
+    width: 80vw;
   }
 }

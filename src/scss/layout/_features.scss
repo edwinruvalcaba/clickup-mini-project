@@ -53,3 +53,13 @@
     margin-top: 1.75rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .features {
+    margin: 2rem auto;
+  }
+
+  .features__heading p {
+    margin: 1rem auto;
+  }
+}

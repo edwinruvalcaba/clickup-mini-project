@@ -14,7 +14,7 @@
   min-height: 53vh;
   background-color: $purple;
   border-radius: 3.125rem;
-  overflow-x: hidden;
+  overflow: hidden;
   margin-bottom: 9.375rem;
 }
 
@@ -102,4 +102,36 @@
 
 .testimonials__nav-arrow--right:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 884px) {
+  .testimonials__heading,
+  .testimonials__card-container {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testimonials__container {
+    max-width: 90vw;
+  }
+
+  .testimonials__card {
+    width: 80vw;
+    padding: 0 !important;
+  }
+
+  .card-next {
+    display: none !important;
+  }
+
+  .testimonials__nav {
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+    width: 80vw;
+  }
+
+  .testimonials__nav-arrows {
+    margin-right: 2rem;
+  }
 }
