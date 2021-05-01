@@ -43,3 +43,9 @@
   line-height: 2.025rem;
   margin-top: 1.25rem;
 }
+
+@media screen and (max-width: 884px) {
+  .testimonials__card-pic {
+    margin-left: 1rem;
+  }
+}
